@@ -14,6 +14,7 @@
 		072E070E1C34DF2400CE2D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072E070C1C34DF2400CE2D0A /* LaunchScreen.storyboard */; };
 		072E07191C34DF2500CE2D0A /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072E07181C34DF2500CE2D0A /* tipsTests.swift */; };
 		072E07241C34DF2500CE2D0A /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072E07231C34DF2500CE2D0A /* tipsUITests.swift */; };
+		07E710B01C3986CC00147EDB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E710AF1C3986CC00147EDB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		072E071F1C34DF2500CE2D0A /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072E07231C34DF2500CE2D0A /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		072E07251C34DF2500CE2D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E710AF1C3986CC00147EDB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				072E070A1C34DF2400CE2D0A /* Assets.xcassets */,
 				072E070C1C34DF2400CE2D0A /* LaunchScreen.storyboard */,
 				072E070F1C34DF2400CE2D0A /* Info.plist */,
+				07E710AF1C3986CC00147EDB /* SettingsViewController.swift */,
 			);
 			path = tips;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				072E07061C34DF2400CE2D0A /* ViewController.swift in Sources */,
 				072E07041C34DF2400CE2D0A /* AppDelegate.swift in Sources */,
+				07E710B01C3986CC00147EDB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +493,7 @@
 				072E072A1C34DF2500CE2D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072E072B1C34DF2500CE2D0A /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				072E072D1C34DF2500CE2D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072E072E1C34DF2500CE2D0A /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				072E07301C34DF2500CE2D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
