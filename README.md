@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [X] Bug fix: If bill value is empty, this is checked in order to avoid a crash while computing the tip out of any percentage change.
-* [X] Making sure the keyboard is always visible and the bill amount is always the first responder.
+
 
 ## Video Walkthrough 
 
